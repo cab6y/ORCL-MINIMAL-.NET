@@ -37,7 +37,6 @@ namespace ORCL_MINIMAL_.NET.Controllers
         {
             try
             {
-
                 var get = _dbcontext.Products.ToList();
 
                 return get;
@@ -45,6 +44,22 @@ namespace ORCL_MINIMAL_.NET.Controllers
             catch
             {
                 return new List<Product>();
+            }
+        }
+        [HttpDelete]
+        public async Task<bool> Delete(string name)
+        {
+            try
+            {
+                var get = _dbcontext.Products.Where(x=>x.Name == name).FirstOrDefault();
+                _dbcontext.Products.Remove(get);
+                _dbcontext.SaveChanges(true);
+
+                return true;
+            }
+            catch
+            {
+                return false;
             }
         }
     }
