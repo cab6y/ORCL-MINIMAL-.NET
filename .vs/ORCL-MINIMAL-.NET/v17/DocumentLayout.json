@@ -3,8 +3,20 @@
   "WorkspaceRootPath": "C:\\VisualProjects\\ORCL-MINIMAL-.NET\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{8EAEFCA9-5E9E-4A0F-885D-0D963FB9B4D0}|ORCL-MINIMAL-.NET.csproj|c:\\visualprojects\\orcl-minimal-.net\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8EAEFCA9-5E9E-4A0F-885D-0D963FB9B4D0}|ORCL-MINIMAL-.NET.csproj|solutionrelative:controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8EAEFCA9-5E9E-4A0F-885D-0D963FB9B4D0}|ORCL-MINIMAL-.NET.csproj|c:\\visualprojects\\orcl-minimal-.net\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8EAEFCA9-5E9E-4A0F-885D-0D963FB9B4D0}|ORCL-MINIMAL-.NET.csproj|solutionrelative:controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8EAEFCA9-5E9E-4A0F-885D-0D963FB9B4D0}|ORCL-MINIMAL-.NET.csproj|c:\\visualprojects\\orcl-minimal-.net\\efcore\\orclcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8EAEFCA9-5E9E-4A0F-885D-0D963FB9B4D0}|ORCL-MINIMAL-.NET.csproj|solutionrelative:efcore\\orclcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8EAEFCA9-5E9E-4A0F-885D-0D963FB9B4D0}|ORCL-MINIMAL-.NET.csproj|c:\\visualprojects\\orcl-minimal-.net\\migrations\\20250104190758_first.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8EAEFCA9-5E9E-4A0F-885D-0D963FB9B4D0}|ORCL-MINIMAL-.NET.csproj|solutionrelative:migrations\\20250104190758_first.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8EAEFCA9-5E9E-4A0F-885D-0D963FB9B4D0}|ORCL-MINIMAL-.NET.csproj|c:\\visualprojects\\orcl-minimal-.net\\migrations\\orclcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8EAEFCA9-5E9E-4A0F-885D-0D963FB9B4D0}|ORCL-MINIMAL-.NET.csproj|solutionrelative:migrations\\orclcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -23,14 +35,53 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "WeatherForecastController.cs",
-              "DocumentMoniker": "C:\\VisualProjects\\ORCL-MINIMAL-.NET\\Controllers\\WeatherForecastController.cs",
-              "RelativeDocumentMoniker": "Controllers\\WeatherForecastController.cs",
-              "ToolTip": "C:\\VisualProjects\\ORCL-MINIMAL-.NET\\Controllers\\WeatherForecastController.cs",
-              "RelativeToolTip": "Controllers\\WeatherForecastController.cs",
-              "ViewState": "AgIAAAEAAAAAAAAAAAAiwA4AAAA6AAAAAAAAAA==",
+              "Title": "ProductController.cs",
+              "DocumentMoniker": "C:\\VisualProjects\\ORCL-MINIMAL-.NET\\Controllers\\ProductController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ProductController.cs",
+              "ToolTip": "C:\\VisualProjects\\ORCL-MINIMAL-.NET\\Controllers\\ProductController.cs",
+              "RelativeToolTip": "Controllers\\ProductController.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAswCcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-04T18:31:19.127Z",
+              "WhenOpened": "2025-01-04T19:12:59.999Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "20250104190758_first.Designer.cs",
+              "DocumentMoniker": "C:\\VisualProjects\\ORCL-MINIMAL-.NET\\Migrations\\20250104190758_first.Designer.cs",
+              "RelativeDocumentMoniker": "Migrations\\20250104190758_first.Designer.cs",
+              "ToolTip": "C:\\VisualProjects\\ORCL-MINIMAL-.NET\\Migrations\\20250104190758_first.Designer.cs",
+              "RelativeToolTip": "Migrations\\20250104190758_first.Designer.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-04T19:09:03.106Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ORCLContextModelSnapshot.cs",
+              "DocumentMoniker": "C:\\VisualProjects\\ORCL-MINIMAL-.NET\\Migrations\\ORCLContextModelSnapshot.cs",
+              "RelativeDocumentMoniker": "Migrations\\ORCLContextModelSnapshot.cs",
+              "ToolTip": "C:\\VisualProjects\\ORCL-MINIMAL-.NET\\Migrations\\ORCLContextModelSnapshot.cs",
+              "RelativeToolTip": "Migrations\\ORCLContextModelSnapshot.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABgAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-04T19:08:20.288Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ORCLContext.cs",
+              "DocumentMoniker": "C:\\VisualProjects\\ORCL-MINIMAL-.NET\\EFCore\\ORCLContext.cs",
+              "RelativeDocumentMoniker": "EFCore\\ORCLContext.cs",
+              "ToolTip": "C:\\VisualProjects\\ORCL-MINIMAL-.NET\\EFCore\\ORCLContext.cs",
+              "RelativeToolTip": "EFCore\\ORCLContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-04T19:05:14.956Z",
               "EditorCaption": ""
             }
           ]

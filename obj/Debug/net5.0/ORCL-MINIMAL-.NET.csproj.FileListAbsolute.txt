@@ -58,3 +58,11 @@ C:\VisualProjects\ORCL-MINIMAL-.NET\obj\Debug\net5.0\refint\ORCL-MINIMAL-.NET.dl
 C:\VisualProjects\ORCL-MINIMAL-.NET\obj\Debug\net5.0\ORCL-MINIMAL-.NET.pdb
 C:\VisualProjects\ORCL-MINIMAL-.NET\obj\Debug\net5.0\ORCL-MINIMAL-.NET.genruntimeconfig.cache
 C:\VisualProjects\ORCL-MINIMAL-.NET\obj\Debug\net5.0\ref\ORCL-MINIMAL-.NET.dll
+C:\VisualProjects\ORCL-MINIMAL-.NET\bin\Debug\net5.0\Humanizer.dll
+C:\VisualProjects\ORCL-MINIMAL-.NET\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.dll
+C:\VisualProjects\ORCL-MINIMAL-.NET\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\VisualProjects\ORCL-MINIMAL-.NET\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\VisualProjects\ORCL-MINIMAL-.NET\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\VisualProjects\ORCL-MINIMAL-.NET\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.dll
+C:\VisualProjects\ORCL-MINIMAL-.NET\bin\Debug\net5.0\Oracle.EntityFrameworkCore.dll
+C:\VisualProjects\ORCL-MINIMAL-.NET\obj\Debug\net5.0\ORCL-MINIMAL-.NET.sourcelink.json
