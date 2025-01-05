@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ORCL-MINIMAL-.NET")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2ca2d4c12aa6ffc066d9c020ff3a5e6c1cae3ee9")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+40ae8750fea33c940b64ebe6ee2594c83d8d29ed")]
 [assembly: System.Reflection.AssemblyProductAttribute("ORCL-MINIMAL-.NET")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ORCL-MINIMAL-.NET")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

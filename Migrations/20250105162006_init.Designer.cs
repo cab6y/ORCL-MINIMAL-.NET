@@ -10,8 +10,8 @@ using Oracle.EntityFrameworkCore.Metadata;
 namespace ORCL_MINIMAL_.NET.Migrations
 {
     [DbContext(typeof(ORCLContext))]
-    [Migration("20250104190758_first")]
-    partial class first
+    [Migration("20250105162006_init")]
+    partial class init
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
@@ -21,7 +21,7 @@ namespace ORCL_MINIMAL_.NET.Migrations
                 .HasAnnotation("ProductVersion", "5.0.16")
                 .HasAnnotation("Oracle:ValueGenerationStrategy", OracleValueGenerationStrategy.IdentityColumn);
 
-            modelBuilder.Entity("ORCL_MINIMAL_.NET.Models.Product", b =>
+            modelBuilder.Entity("ORCL_MINIMAL_.NET.Models.Category", b =>
                 {
                     b.Property<Guid>("Id")
                         .ValueGeneratedOnAdd()
@@ -32,7 +32,37 @@ namespace ORCL_MINIMAL_.NET.Migrations
 
                     b.HasKey("Id");
 
+                    b.ToTable("Categories");
+                });
+
+            modelBuilder.Entity("ORCL_MINIMAL_.NET.Models.Product", b =>
+                {
+                    b.Property<Guid>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("RAW(16)");
+
+                    b.Property<Guid>("CategoryId")
+                        .HasColumnType("RAW(16)");
+
+                    b.Property<string>("Name")
+                        .HasColumnType("NVARCHAR2(2000)");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("CategoryId");
+
                     b.ToTable("Products");
+                });
+
+            modelBuilder.Entity("ORCL_MINIMAL_.NET.Models.Product", b =>
+                {
+                    b.HasOne("ORCL_MINIMAL_.NET.Models.Category", "Category")
+                        .WithMany()
+                        .HasForeignKey("CategoryId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Category");
                 });
 #pragma warning restore 612, 618
         }

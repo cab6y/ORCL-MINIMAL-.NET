@@ -19,10 +19,12 @@ namespace ORCL_MINIMAL_.NET.Controllers
         {
             try
             {
-               
+                var getCategory = _dbcontext.Categories.Where(x => x.Name == input.CategoryName).FirstOrDefault();
+                if (getCategory == null) return false;
                 Product product = new Product();
                 product.Id = Guid.NewGuid();
                 product.Name = input.Name;
+                product.CategoryId = getCategory.Id;
                 _dbcontext.Products.Add(product);
                 _dbcontext.SaveChanges();
                 return true;
@@ -38,7 +40,10 @@ namespace ORCL_MINIMAL_.NET.Controllers
             try
             {
                 var get = _dbcontext.Products.ToList();
-
+                foreach(var item in get)
+                {
+                    item.Category = _dbcontext.Categories.Where(x => x.Id == item.CategoryId).FirstOrDefault();
+                }
                 return get;
             }
             catch

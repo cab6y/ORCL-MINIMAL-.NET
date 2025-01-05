@@ -1,8 +1,7 @@
 ﻿namespace ORCL_MINIMAL_.NET.Models
 {
-    public class CreateProduct
+    public class CreateCategory
     {
         public string Name { get; set; }
-        public string CategoryName { get; set; }
     }
 }
